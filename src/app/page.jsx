@@ -63,7 +63,7 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center  shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={design} width={100} height={100} className='mx-auto' />
+              <Image src={design} width={100} height={100} className='mx-auto' alt="Design" />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
@@ -78,7 +78,7 @@ export default function Home() {
 
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} className='mx-auto' />
+              <Image src={code} width={100} height={100} className='mx-auto' alt="Code" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -93,7 +93,7 @@ export default function Home() {
 
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} className='mx-auto' />
+              <Image src={consulting} width={100} height={100} className='mx-auto' alt="Consulting" />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
               <p className="py-2">
                 Are you interested in feedback for your current project? I can
