@@ -13,7 +13,7 @@ import consulting from "../../public/consulting.png"
 import Link from "next/link";
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   return (
     <div className={darkMode ? "dark" : ""}>
